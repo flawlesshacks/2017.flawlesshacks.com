@@ -225,3 +225,37 @@ section {
   font-weight: 600;
   line-height: 1.2;
 }
+
+.sponsor{
+  margin: 20px 20px 0px 0px;
+  display: inline-block;
+  background-color: transparent;
+  /* border: 2px solid white; */
+  border-radius: 3px;
+  -webkit-filter: brightness(0) invert(1);
+}
+.sponsor:hover{
+  -webkit-filter: none;
+  /* background-color: white; */
+}
+.sponsor img {
+  max-width:100%;
+  max-height:100%;
+  margin:auto;
+  display:block;
+}
+
+.silver {
+  width: 180px;
+  height: 50px;
+}
+
+.minor {
+  width: 120px;
+  height: 25px;
+}
+
+.gold {
+  width: 260px;
+  height: 100px;
+}

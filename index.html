@@ -1,36 +1,34 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Flawless Hacks Website </title>
-  
-  
-  <link rel='stylesheet prefetch' href='https://raw.githubusercontent.com/daneden/animate.css/master/animate.css'>
-
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <title>Flawless Hacks | 2017</title>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <!-- Tinkering with the flawless hacks website -->
+<body id="page-top" data-spy="scroll">
+
 <div class="homepage__social-share-buttons flex items-center fixed top-0 bottom-0"></div>
 
 <aside id="sticky-social">
   <ul>
-    <li><a href="#" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
-    <li><a href="#" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
+    <li><a href="https://www.facebook.com/flawlesshacks" class="entypo-facebook" target="_blank"><span>Facebook</span></a></li>
+    <li><a href="https://twitter.com/flawlesshack" class="entypo-twitter" target="_blank"><span>Twitter</span></a></li>
   </ul>
 </aside>
 <!-- https://snips.ai/content/intro-to-ai/#ai-metrics -->
 <navigation>
   <ul>
-    <li class="button"><a href="">RSVP</a></li>
+    <li class="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfw2AfwVxXuDNPOiKbnOJXME9bsFr1CX4rKfNipTDqg3sMMoQ/viewform?c=0&w=1">RSVP</a></li>
 
-    <li>About</li>
-    <li><a href="">Sponsors</a></li>
-    <li><a href="">Mentors</a></li>
-    <li><a href="">FAQ</a></li>
+    <li><a class="page-scroll" href="#about">About</li>
+    <li><a class="page-scroll" href="#schedule">Schedule</a></li>
+    <li><a class="page-scroll" href="#sponsors">Sponsors</a></li>
+<!--TODO: Add mentors
+    <li><a class="page-scroll" href="#mentors">Mentors</a></li>-->
+
+    <li><a class="page-scroll" href="#faq">FAQ</a></li>
   </ul>
 </navigation>
 <div class="panel2" data-color="main">
@@ -40,7 +38,7 @@
   </div>
 </div>
 
-<div class="panel" data-color="teal">
+<div class="panel" data-color="teal" id="about">
   <div>
     <img src="https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/crown-wt.png">
   </div>
@@ -51,10 +49,10 @@
   <p class="text-para text-para--large-lh">
     FlawlessHacks will bring together over 100 women engineers from the greater New York area and beyond, from colleges such as NYU, Columbia, Barnard, Pace, and Cooper Union for a day of coding, mentorship and awesome projects!
     <br><br>
-    <span class="button"><a href="">RSVP here</a></span>
+    <span class="button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfw2AfwVxXuDNPOiKbnOJXME9bsFr1CX4rKfNipTDqg3sMMoQ/viewform?c=0&w=1">RSVP here</a></span>
   </p>
 </div>
-<div class="panel" data-color="red">
+<div class="panel" data-color="red" id="schedule">
   <h2 class="homepage-sections-title bauta white">Schedule</h2>
 
   <h3>Saturday, April 22nd</h3><br><br>
@@ -74,11 +72,16 @@
 
   <p>9PM : End of hacking and presentations begin!</p>
 </div>
-<div class="panel" data-color="black">
-  <h3 class="mb3 sm-mb4 mega white">Sponsors</h3> Interested in sponsoring? Check out out <a href="">sponsorship doc.</a><br>
+<div class="panel" data-color="black" id="sponsors" class="sponsors">
+  <h3 class="mb3 sm-mb4 mega white">Sponsors</h3>
+  <div class="sponsor gold"><a href="https://www.spotify.com/us/"><img src = "images/sponsors/spotify.png"></a></div>
+
+<br></br>
+
+  Interested in sponsoring? Check out out <a href="">sponsorship doc.</a><br>
   <img src="https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/ring-wt.png" width="100px">
 </div>
-<div class="panel" data-color="blue">
+<div class="panel" data-color="blue" id="faq">
   <h3 class="mb3 sm-mb4 mega white">FAQ</h3>
   <div class="text-para">
     <h3>WHO CAN ATTEND?</h3>
@@ -135,6 +138,8 @@
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 
     <script src="js/index.js"></script>
+    <script src="js/nav.js"></script>
+
 
 </body>
 </html>
