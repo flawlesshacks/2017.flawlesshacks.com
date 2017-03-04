@@ -288,7 +288,7 @@ section {
   width: 260px;
   height: 100px;
 }
-
+.schedule-mobile { display:none;}
 .schedule {
   max-width:600px;
   margin: 0 auto;
@@ -308,4 +308,22 @@ section {
   margin-right: 0; 
   text-align:left; 
   float:center;
+}
+
+@media (max-width: 480px) {
+  /* This is how it looks on mobile */
+  navigation {
+    display: none; 
+  }
+  .schedule { 
+    display:none;
+  }
+  .schedule-mobile { 
+    display:block;
+  }
+  .panel {
+    min-height: 100vh;
+    text-align: center;
+    padding: 2em 0 2em;
+  }
 }
