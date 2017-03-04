@@ -17,6 +17,22 @@ aside > ul {
   padding: 0;
 }
 
+#faq h3 {
+  text-transform: uppercase;
+}
+
+.item {
+  max-width:600px;
+  clear:both;
+}
+
+.time {
+  float:left;
+}
+.event{
+  float:right;
+}
+
 .text-para {
   padding: 2em 10em 2em 10em;
   line-height: 30px;
@@ -89,6 +105,14 @@ a {
   color: white;
   display: inline-block;
 }
+.panel a:hover {
+  color:#006891;
+}
+
+#faq a:hover {
+  color:#D85465;
+}
+
 
 .button {
   max-width: 200px;
@@ -99,6 +123,9 @@ a {
 
 .button:hover {
   background: rgba(0, 0, 0, 0.2);
+}
+.button > a:hover {
+  color:white;
 }
 
 html,
@@ -137,19 +164,23 @@ section {
 }
 
 .panel2 {
-  background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-green-fade.png');
+  background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-cover.png');
   background-size: 100%;
   background-repeat: no-repeat;
   min-height: 100vh;
   text-align: center;
-  padding: 10em 0 3em;
+  padding: 10em 0 0;
+}
+
+.panel2 a:hover {
+  color: #006891;
 }
 
 
 /* colours */
 
 .color-main {
-  background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-green-fade.png');
+  background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-cover.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #1BB996;
@@ -173,10 +204,6 @@ section {
 
 .color-orange {
   background-color: #F19031;
-}
-
-.color-red {
-  background-color: #F2293A;
 }
 
 .homepage-sections-title {
