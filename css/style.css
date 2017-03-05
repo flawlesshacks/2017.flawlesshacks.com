@@ -36,7 +36,7 @@ aside > ul {
 .text-para {
   margin: 0 auto;
   padding: 1.5em;
-  max-width:600px;
+  max-width: 600px;
   line-height: 30px;
 }
 
@@ -56,35 +56,19 @@ aside > ul {
   background: #333;
   color: #fff;
   display: block;
-  height: 35px;
+  height: 50px;
   font-family: "Open Sans", sans-serif;
-  line-height: 35px;
+  line-height: 50px;
   position: relative;
   text-align: center;
-  width: 35px;
+  width: 50px;
 }
 
-#sticky-social a span {
-  line-height: 35px;
-  left: -120px;
-  position: absolute;
-  text-align: center;
-  width: 120px;
-}
-
-#sticky-social a:hover span {
-  left: 100%;
-}
-
-#sticky-social a[class*="facebook"],
-#sticky-social a[class*="facebook"]:hover,
-#sticky-social a[class*="facebook"] span {
+#sticky-social a[class*="facebook"] {
   background: #3b5998;
 }
 
-#sticky-social a[class*="twitter"],
-#sticky-social a[class*="twitter"]:hover,
-#sticky-social a[class*="twitter"] span {
+#sticky-social a[class*="twitter"] {
   background: #00aced;
 }
 
@@ -156,6 +140,9 @@ section {
 }
 
 
+.crown, .praise, .ring {
+  visibility: hidden;
+}
 /* panel styles */
 
 .panel {
@@ -172,6 +159,16 @@ section {
   padding: 10em 0 0;
 }
 
+.regular {
+  background-image: url(../images/main/ty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+  text-align: left;
+  padding: 5em 0 0;
+}
+
+
 .panel2 a:hover {
   color: #006891;
 }
@@ -181,6 +178,7 @@ section {
 
 .color-main {
   background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-cover.png');
+  background-size: cover;
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #1BB996;
@@ -220,6 +218,13 @@ section {
   margin-right: auto;
 }
 
+.header {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 .bauta {
   font-size: 2.2em;
   font-weight: 600;
@@ -230,6 +235,9 @@ section {
   color: #fff;
 }
 
+.pink {
+  color: #D85465;
+}
 .homepage-sections-title:after,
 .homepage-sections-title:before {
   content: "";
