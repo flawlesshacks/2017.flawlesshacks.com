@@ -152,6 +152,8 @@ section {
 
 .panel2 {
   background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-cover.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   min-height: 100vh;
   text-align: center;
   padding: 10em 0 0;
@@ -182,10 +184,6 @@ section {
 /* colours */
 
 .color-main {
-  background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-cover.png');
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-color: #1BB996;
 }
 
