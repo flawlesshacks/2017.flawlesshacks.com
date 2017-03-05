@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amiko:400,600');
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url('http://weloveiconfonts.com/api/?family=entypo');
 
 /* entypo */
 
@@ -167,8 +167,6 @@ section {
 
 .panel2 {
   background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/flawless-cover.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
   min-height: 100vh;
   text-align: center;
   padding: 10em 0 0;
@@ -297,28 +295,28 @@ section {
   line-height:2.3em;
 }
 .time {
-  display:inline-block; 
-  margin: 0 auto; 
-  margin-right:20px; 
-  text-align:right; 
+  display:inline-block;
+  margin: 0 auto;
+  margin-right:20px;
+  text-align:right;
   float:center;
 }
 .event {
-  display:inline-block; 
-  margin-right: 0; 
-  text-align:left; 
+  display:inline-block;
+  margin-right: 0;
+  text-align:left;
   float:center;
 }
 
 @media (max-width: 480px) {
   /* This is how it looks on mobile */
   navigation {
-    display: none; 
+    display: none;
   }
-  .schedule { 
+  .schedule {
     display:none;
   }
-  .schedule-mobile { 
+  .schedule-mobile {
     display:block;
   }
   .panel {
