@@ -2,8 +2,8 @@
 2017
 
 ####TODO:
-* Favicon
+* Social media icons
 * Margins for panels
 * 2016 hacks/photos
 * More graphic assets
-* Contact section
+* Style contact section
