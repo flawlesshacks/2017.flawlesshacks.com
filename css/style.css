@@ -157,13 +157,20 @@ section {
   padding: 10em 0 0;
 }
 
-.regular {
-  background-image: url(../images/main/ty.jpg);
+.bottom {
+  position:relative;
+  background-image: url('https://raw.githubusercontent.com/flawlesshacks/2017/master/assets/images/background-btm.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 40vh;
   text-align: left;
   padding: 5em 0 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8em;
 }
 
 
@@ -233,9 +240,6 @@ section {
   color: #fff;
 }
 
-.pink {
-  color: #D85465;
-}
 .homepage-sections-title:after,
 .homepage-sections-title:before {
   content: "";
