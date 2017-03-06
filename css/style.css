@@ -48,6 +48,7 @@ aside > ul {
   left: 0;
   position: fixed;
   top: 150px;
+  z-index: 100;
 }
 
 #sticky-social a {
