@@ -89,6 +89,9 @@ a {
   color: white;
   display: inline-block;
 }
+.panel a {
+  color:#1BB996;
+}
 .panel a:hover {
   color:#006891;
 }
@@ -108,6 +111,7 @@ a {
 .button:hover {
   background: rgba(0, 0, 0, 0.2);
 }
+.button > a,
 .button > a:hover {
   color:white;
 }
