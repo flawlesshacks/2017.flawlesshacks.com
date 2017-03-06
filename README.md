@@ -2,8 +2,9 @@
 2017
 
 ####TODO:
-* Social media icons
+* Change social media icons for mobile
 * Margins for panels
 * 2016 hacks/photos
 * More graphic assets
-* Style contact section
+* Parental consent forms
+* Add background color to each sponsor
