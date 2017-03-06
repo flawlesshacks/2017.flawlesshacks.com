@@ -173,11 +173,7 @@ section {
   padding: 5em 0 0;
 }
 
-.footer {
-  position: absolute;
-  bottom: 10px;
-  font-size: 0.8em;
-}
+
 
 
 .panel2 a:hover {
@@ -318,6 +314,12 @@ section {
   margin-right: 0;
   text-align:left;
   float:center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8em;
 }
 
 @media (max-width: 480px) {
