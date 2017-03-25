@@ -31,13 +31,37 @@ aside > ul {
   float:right;
 }
 
+.speaker {
+  margin: 0 auto;
+  display:flex;
+  padding:1.5em;
+  justify-content: space-around;
+  align-items: center;
+  max-width:600px;
+}
+.speaker-photo{
+
+}
+.speaker-name {
+  padding-left: 10px;
+  text-align: left;
+}
+.speaker-name h3 {
+  font-style: italic;
+}
+
 .text-para {
   margin: 0 auto;
   padding: 1.5em;
   max-width: 600px;
   line-height: 30px;
 }
-
+.text-small {
+  padding: 1em;
+  background-color:white;
+  color: #1bb996;
+  font-size: .9em;
+}
 .container {
   margin: 0 auto;
   padding: 20px 50px;
