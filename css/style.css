@@ -342,8 +342,8 @@ a {
 .workshop > .advanced {
   background-color: #D85465;
 }
-.workshop > .crown {
-  height:20px;
+.workshop > .crown > img{
+  height:40px;
   padding: 20px;
 }
 .mentor-grid {
