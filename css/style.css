@@ -328,13 +328,14 @@ a {
   margin: 0 auto;
   padding: 10px 0px;
   max-width: 600px;
+  font-size:.9em;
 }
 .workshop > .tag {
   display:inline-block;
   text-transform: uppercase;
   font-size:.7em;
   margin-left: 5px;
-  padding:2px 5px;
+  padding:4px 6px 1px;
 }
 .workshop > .beginner {
   background-color: #006891;
