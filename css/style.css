@@ -279,15 +279,12 @@ section {
   -webkit-filter: none;
   /* background-color: white; */
 }
-.sponsor a{
-  display:flex;
-}
+
+
 .sponsor img {
   max-width:100%;
   max-height:100%;
   margin:auto;
-  display:flex;
-  align-self:center;
 }
 
 .platinum {
@@ -297,12 +294,12 @@ section {
 
 .gold {
   width: 180px;
-  height: 50px;
+  height: 40px;
 }
 
 .silver {
-  width: 120px;
-  height: 25px;
+  width: 100px;
+  height: 35px;
 }
 
 
