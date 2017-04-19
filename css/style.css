@@ -264,12 +264,13 @@ section {
 .sponsorsection {
   margin: 0 auto;
   display:flex;
+  flex-wrap:wrap;
   justify-content: center;
   align-items: center;
 }
 .sponsor{
   display:flex;
-  margin: 20px 20px 0px 0px;
+  margin: 20px;
   background-color: transparent;
   /* border: 2px solid white; */
   border-radius: 3px;
@@ -291,18 +292,17 @@ section {
 }
 
 .platinum {
-  width: 260px;
-  height: 100px;
+  width: 280px;
 }
 
 .gold {
-  width: 180px;
-  height: 50px;
+  width: 210px;
+  height:60px;
 }
 
 .silver {
-  width: 120px;
-  height: 25px;
+  width: 150px;
+  height:40px;
 }
 
 
