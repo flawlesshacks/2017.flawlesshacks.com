@@ -236,6 +236,7 @@ a {
 .sponsorsection {
   margin: 0 auto;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -261,17 +262,20 @@ a {
   display:flex;
   align-self:center;
 }
-.gold {
+
+.platinum {
   width: 260px;
   height: 100px;
 }
-.silver {
+
+.gold {
   width: 180px;
   height: 50px;
 }
-.minor {
-  width: 120px;
-  height: 25px;
+
+.silver {
+  width: 140px;
+  height: 35px;
 }
 
 /* FAQ */
