@@ -334,17 +334,24 @@ a {
   max-width: 600px;
   font-size:.9em;
 }
-.workshop > .tag {
+.tag {
   display:inline-block;
   text-transform: uppercase;
   font-size:.7em;
   margin-left: 5px;
   padding:4px 6px 1px;
 }
-.workshop > .beginner {
+.beginner {
   background-color: #006891;
 }
-.workshop > .advanced {
+.optional {
+  background-color: #1bb996;
+  margin-left:0px;
+  margin-right:10px;
+  padding: 6px 6px 2px;
+  line-height: 16px;
+}
+.advanced {
   background-color: #D85465;
 }
 .workshop > .crown > img{
@@ -396,7 +403,7 @@ a {
 
 /* MOBILE */
 
-@media (max-width: 480px) {
+@media (max-width: 530px) {
   /* This is how it looks on mobile */
   navigation {
     display: none;
